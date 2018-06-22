@@ -1,0 +1,6 @@
+E:\经典算法自己总结学习\ConsoleApplication1\ScopeValue\bin\Release\ScopeValue.exe.config
+E:\经典算法自己总结学习\ConsoleApplication1\ScopeValue\obj\Release\ScopeValue.csprojResolveAssemblyReference.cache
+E:\经典算法自己总结学习\ConsoleApplication1\ScopeValue\bin\Release\ScopeValue.exe
+E:\经典算法自己总结学习\ConsoleApplication1\ScopeValue\bin\Release\ScopeValue.pdb
+E:\经典算法自己总结学习\ConsoleApplication1\ScopeValue\obj\Release\ScopeValue.exe
+E:\经典算法自己总结学习\ConsoleApplication1\ScopeValue\obj\Release\ScopeValue.pdb

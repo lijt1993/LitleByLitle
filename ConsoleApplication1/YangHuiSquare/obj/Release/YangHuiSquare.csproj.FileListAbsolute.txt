@@ -1,0 +1,6 @@
+E:\经典算法自己总结学习\ConsoleApplication1\YangHuiSquare\bin\Release\YangHuiSquare.exe.config
+E:\经典算法自己总结学习\ConsoleApplication1\YangHuiSquare\bin\Release\YangHuiSquare.exe
+E:\经典算法自己总结学习\ConsoleApplication1\YangHuiSquare\bin\Release\YangHuiSquare.pdb
+E:\经典算法自己总结学习\ConsoleApplication1\YangHuiSquare\obj\Release\YangHuiSquare.csprojResolveAssemblyReference.cache
+E:\经典算法自己总结学习\ConsoleApplication1\YangHuiSquare\obj\Release\YangHuiSquare.exe
+E:\经典算法自己总结学习\ConsoleApplication1\YangHuiSquare\obj\Release\YangHuiSquare.pdb

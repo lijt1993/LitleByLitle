@@ -1,0 +1,6 @@
+E:\经典算法自己总结学习\ConsoleApplication1\JuZhen\bin\Release\JuZhen.exe.config
+E:\经典算法自己总结学习\ConsoleApplication1\JuZhen\bin\Release\JuZhen.exe
+E:\经典算法自己总结学习\ConsoleApplication1\JuZhen\bin\Release\JuZhen.pdb
+E:\经典算法自己总结学习\ConsoleApplication1\JuZhen\obj\Release\JuZhen.csprojResolveAssemblyReference.cache
+E:\经典算法自己总结学习\ConsoleApplication1\JuZhen\obj\Release\JuZhen.exe
+E:\经典算法自己总结学习\ConsoleApplication1\JuZhen\obj\Release\JuZhen.pdb

@@ -1,0 +1,6 @@
+E:\经典算法自己总结学习\ConsoleApplication1\randomS_N\bin\Release\randomS_N.exe.config
+E:\经典算法自己总结学习\ConsoleApplication1\randomS_N\bin\Release\randomS_N.exe
+E:\经典算法自己总结学习\ConsoleApplication1\randomS_N\bin\Release\randomS_N.pdb
+E:\经典算法自己总结学习\ConsoleApplication1\randomS_N\obj\Release\randomS_N.csprojResolveAssemblyReference.cache
+E:\经典算法自己总结学习\ConsoleApplication1\randomS_N\obj\Release\randomS_N.exe
+E:\经典算法自己总结学习\ConsoleApplication1\randomS_N\obj\Release\randomS_N.pdb

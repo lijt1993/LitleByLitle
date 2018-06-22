@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="DBFirst">
+</Property><Property Name="解决方案文件" Value="E:\经典算法自己总结学习\DBFirst\DBFirst\DBFirst.sln">
+</Property><Property Name="Date" Value="2017年10月23日">
+</Property><Property Name="Time" Value="14:37">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="DBFirst.sln" Description="文件已成功备份为 E:\经典算法自己总结学习\DBFirst\DBFirst\Backup\DBFirst.sln">
+</Event><Event ErrorLevel="0" Project="DBFirst" Source="DBFirst\DBFirst.csproj" Description="项目文件已成功备份为 E:\经典算法自己总结学习\DBFirst\DBFirst\Backup\DBFirst\DBFirst.csproj">
+</Event><Event ErrorLevel="0" Project="DBFirst" Source="DBFirst\cardSet.cs" Description="文件已成功备份为 E:\经典算法自己总结学习\DBFirst\DBFirst\Backup\DBFirst\cardSet.cs">
+</Event><Event ErrorLevel="0" Project="DBFirst" Source="DBFirst\EntityModel2.Context.cs" Description="文件已成功备份为 E:\经典算法自己总结学习\DBFirst\DBFirst\Backup\DBFirst\EntityModel2.Context.cs">
+</Event><Event ErrorLevel="0" Project="DBFirst" Source="DBFirst\EntityModel2.cs" Description="文件已成功备份为 E:\经典算法自己总结学习\DBFirst\DBFirst\Backup\DBFirst\EntityModel2.cs">
+</Event><Event ErrorLevel="0" Project="DBFirst" Source="DBFirst\EntityModel2.Designer.cs" Description="文件已成功备份为 E:\经典算法自己总结学习\DBFirst\DBFirst\Backup\DBFirst\EntityModel2.Designer.cs">
+</Event><Event ErrorLevel="0" Project="DBFirst" Source="DBFirst\Program.cs" Description="文件已成功备份为 E:\经典算法自己总结学习\DBFirst\DBFirst\Backup\DBFirst\Program.cs">
+</Event><Event ErrorLevel="0" Project="DBFirst" Source="DBFirst\Properties\AssemblyInfo.cs" Description="文件已成功备份为 E:\经典算法自己总结学习\DBFirst\DBFirst\Backup\DBFirst\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="DBFirst" Source="DBFirst\userSet.cs" Description="文件已成功备份为 E:\经典算法自己总结学习\DBFirst\DBFirst\Backup\DBFirst\userSet.cs">
+</Event><Event ErrorLevel="0" Project="DBFirst" Source="DBFirst\App.config" Description="文件已成功备份为 E:\经典算法自己总结学习\DBFirst\DBFirst\Backup\DBFirst\App.config">
+</Event><Event ErrorLevel="0" Project="DBFirst" Source="DBFirst\EntityModel2.Context.tt" Description="文件已成功备份为 E:\经典算法自己总结学习\DBFirst\DBFirst\Backup\DBFirst\EntityModel2.Context.tt">
+</Event><Event ErrorLevel="0" Project="DBFirst" Source="DBFirst\EntityModel2.edmx.diagram" Description="文件已成功备份为 E:\经典算法自己总结学习\DBFirst\DBFirst\Backup\DBFirst\EntityModel2.edmx.diagram">
+</Event><Event ErrorLevel="0" Project="DBFirst" Source="DBFirst\EntityModel2.tt" Description="文件已成功备份为 E:\经典算法自己总结学习\DBFirst\DBFirst\Backup\DBFirst\EntityModel2.tt">
+</Event><Event ErrorLevel="0" Project="DBFirst" Source="DBFirst\packages.config" Description="文件已成功备份为 E:\经典算法自己总结学习\DBFirst\DBFirst\Backup\DBFirst\packages.config">
+</Event><Event ErrorLevel="0" Project="DBFirst" Source="DBFirst\DBFirst.csproj" Description="项目文件不需要转换。">
+</Event><Event ErrorLevel="3" Project="DBFirst" Source="DBFirst\DBFirst.csproj" Description="无需转换">
+</Event><Event ErrorLevel="0" Project="" Source="DBFirst.sln" Description="成功转换解决方案">
+</Event><Event ErrorLevel="3" Project="" Source="DBFirst.sln" Description="Converted">
+</Event></UpgradeLog>

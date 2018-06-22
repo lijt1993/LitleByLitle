@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="ModelFirstModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="ModelFirstModelContainer" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="userSet" EntityType="ModelFirstModel.user" />
+    <EntitySet Name="cardSet" EntityType="ModelFirstModel.card" />
+    <AssociationSet Name="usercard" Association="ModelFirstModel.usercard">
+      <End Role="user" EntitySet="userSet" />
+      <End Role="card" EntitySet="cardSet" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="user">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Name" Nullable="false" />
+    <Property Type="String" Name="CreateDate" Nullable="false" />
+    <NavigationProperty Name="card" Relationship="ModelFirstModel.usercard" FromRole="user" ToRole="card" />
+  </EntityType>
+  <EntityType Name="card">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Cash" Nullable="false" />
+    <Property Type="String" Name="CreateUserId" Nullable="false" />
+    <NavigationProperty Name="user" Relationship="ModelFirstModel.usercard" FromRole="card" ToRole="user" />
+    <Property Type="Int32" Name="userId" Nullable="false" />
+  </EntityType>
+  <Association Name="usercard">
+    <End Type="ModelFirstModel.user" Role="user" Multiplicity="1" />
+    <End Type="ModelFirstModel.card" Role="card" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="user">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="card">
+        <PropertyRef Name="userId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

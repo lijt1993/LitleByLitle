@@ -1,0 +1,7 @@
+E:\Demo\EX-Other\EX29-Excel导入导出\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+E:\Demo\EX-Other\EX29-Excel导入导出\Common\bin\Debug\Common.dll
+E:\Demo\EX-Other\EX29-Excel导入导出\Common\bin\Debug\Common.pdb
+E:\Demo\EX-Other\EX29-Excel导入导出\Common\bin\Debug\NPOI.dll
+E:\Demo\EX-Other\EX29-Excel导入导出\Common\bin\Debug\NPOI.xml
+E:\Demo\EX-Other\EX29-Excel导入导出\Common\obj\Debug\Common.dll
+E:\Demo\EX-Other\EX29-Excel导入导出\Common\obj\Debug\Common.pdb

@@ -1,0 +1,7 @@
+E:\经典算法自己总结学习\studyOfOpenCode\studyOfOpenCode\bin\Debug\studyOfOpenCode.exe.config
+E:\经典算法自己总结学习\studyOfOpenCode\studyOfOpenCode\bin\Debug\studyOfOpenCode.exe
+E:\经典算法自己总结学习\studyOfOpenCode\studyOfOpenCode\bin\Debug\studyOfOpenCode.pdb
+E:\经典算法自己总结学习\studyOfOpenCode\studyOfOpenCode\obj\Debug\studyOfOpenCode.csprojResolveAssemblyReference.cache
+E:\经典算法自己总结学习\studyOfOpenCode\studyOfOpenCode\obj\Debug\studyOfOpenCode.exe
+E:\经典算法自己总结学习\studyOfOpenCode\studyOfOpenCode\obj\Debug\studyOfOpenCode.pdb
+E:\经典算法自己总结学习\studyOfOpenCode\studyOfOpenCode\bin\Debug\ThoughtWorks.QRCode.dll

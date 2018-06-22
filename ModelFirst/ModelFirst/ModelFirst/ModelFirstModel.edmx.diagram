@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="8597425614a94edebeb898f0c8b4de49" Name="关系图1" >
+        <EntityTypeShape EntityType="ModelFirstModel.user" Width="1.5" PointX="2.875" PointY="2.5" />
+        <EntityTypeShape EntityType="ModelFirstModel.card" Width="1.5" PointX="6.125" PointY="2.375" />
+        <AssociationConnector Association="ModelFirstModel.usercard" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
