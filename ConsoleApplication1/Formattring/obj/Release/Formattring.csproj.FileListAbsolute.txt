@@ -1,0 +1,6 @@
+E:\经典算法自己总结学习\ConsoleApplication1\Formattring\bin\Release\Formattring.exe.config
+E:\经典算法自己总结学习\ConsoleApplication1\Formattring\bin\Release\Formattring.exe
+E:\经典算法自己总结学习\ConsoleApplication1\Formattring\bin\Release\Formattring.pdb
+E:\经典算法自己总结学习\ConsoleApplication1\Formattring\obj\Release\Formattring.csprojResolveAssemblyReference.cache
+E:\经典算法自己总结学习\ConsoleApplication1\Formattring\obj\Release\Formattring.exe
+E:\经典算法自己总结学习\ConsoleApplication1\Formattring\obj\Release\Formattring.pdb

@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="ModelFirstModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="ModelFirstModelStoreContainer">
+    <EntitySet Name="userSet" EntityType="ModelFirstModel.Store.userSet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="cardSet" EntityType="ModelFirstModel.Store.cardSet" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="usercard" Association="ModelFirstModel.Store.usercard">
+      <End Role="user" EntitySet="userSet" />
+      <End Role="card" EntitySet="cardSet" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="userSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="CreateDate" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="cardSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Cash" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="CreateUserId" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="userId" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="usercard">
+    <End Role="user" Type="ModelFirstModel.Store.userSet" Multiplicity="1" />
+    <End Role="card" Type="ModelFirstModel.Store.cardSet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="user">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="card">
+        <PropertyRef Name="userId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="ModelFirstModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+        <EntityContainer Name="ModelFirstModelContainer" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="userSet" EntityType="ModelFirstModel.user" />
+          <EntitySet Name="cardSet" EntityType="ModelFirstModel.card" />
+          <AssociationSet Name="usercard" Association="ModelFirstModel.usercard">
+            <End Role="user" EntitySet="userSet" />
+            <End Role="card" EntitySet="cardSet" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="user">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="Name" Nullable="false" />
+          <Property Type="String" Name="CreateDate" Nullable="false" />
+          <NavigationProperty Name="card" Relationship="ModelFirstModel.usercard" FromRole="user" ToRole="card" />
+        </EntityType>
+        <EntityType Name="card">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="Cash" Nullable="false" />
+          <Property Type="String" Name="CreateUserId" Nullable="false" />
+          <NavigationProperty Name="user" Relationship="ModelFirstModel.usercard" FromRole="card" ToRole="user" />
+          <Property Type="Int32" Name="userId" Nullable="false" />
+        </EntityType>
+        <Association Name="usercard">
+          <End Type="ModelFirstModel.user" Role="user" Multiplicity="1" />
+          <End Type="ModelFirstModel.card" Role="card" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="user">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="card">
+              <PropertyRef Name="userId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+    <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ModelFirstModelStoreContainer" CdmEntityContainer="ModelFirstModelContainer">
+    <EntitySetMapping Name="userSet">
+      <EntityTypeMapping TypeName="IsTypeOf(ModelFirstModel.user)">
+        <MappingFragment StoreEntitySet="userSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="cardSet">
+      <EntityTypeMapping TypeName="IsTypeOf(ModelFirstModel.card)">
+        <MappingFragment StoreEntitySet="cardSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Cash" ColumnName="Cash" />
+          <ScalarProperty Name="CreateUserId" ColumnName="CreateUserId" />
+          <ScalarProperty Name="userId" ColumnName="userId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping></edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <edmx:Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </edmx:Connection>
+    <edmx:Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="无" />
+      </DesignerInfoPropertySet>
+    </edmx:Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

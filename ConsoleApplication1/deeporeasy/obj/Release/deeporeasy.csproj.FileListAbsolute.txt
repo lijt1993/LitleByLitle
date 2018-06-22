@@ -1,0 +1,6 @@
+E:\经典算法自己总结学习\ConsoleApplication1\deeporeasy\bin\Release\deeporeasy.exe.config
+E:\经典算法自己总结学习\ConsoleApplication1\deeporeasy\obj\Release\deeporeasy.csprojResolveAssemblyReference.cache
+E:\经典算法自己总结学习\ConsoleApplication1\deeporeasy\bin\Release\deeporeasy.exe
+E:\经典算法自己总结学习\ConsoleApplication1\deeporeasy\bin\Release\deeporeasy.pdb
+E:\经典算法自己总结学习\ConsoleApplication1\deeporeasy\obj\Release\deeporeasy.exe
+E:\经典算法自己总结学习\ConsoleApplication1\deeporeasy\obj\Release\deeporeasy.pdb

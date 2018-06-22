@@ -1,0 +1,9 @@
+E:\经典算法自己总结学习\DBFirst\DBFirst\DBFirst\bin\Debug\DBFirst.exe.config
+E:\经典算法自己总结学习\DBFirst\DBFirst\DBFirst\bin\Debug\DBFirst.exe
+E:\经典算法自己总结学习\DBFirst\DBFirst\DBFirst\bin\Debug\DBFirst.pdb
+E:\经典算法自己总结学习\DBFirst\DBFirst\DBFirst\bin\Debug\EntityFramework.dll
+E:\经典算法自己总结学习\DBFirst\DBFirst\DBFirst\bin\Debug\EntityFramework.xml
+E:\经典算法自己总结学习\DBFirst\DBFirst\DBFirst\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\经典算法自己总结学习\DBFirst\DBFirst\DBFirst\obj\Debug\DBFirst.csprojResolveAssemblyReference.cache
+E:\经典算法自己总结学习\DBFirst\DBFirst\DBFirst\obj\Debug\DBFirst.exe
+E:\经典算法自己总结学习\DBFirst\DBFirst\DBFirst\obj\Debug\DBFirst.pdb

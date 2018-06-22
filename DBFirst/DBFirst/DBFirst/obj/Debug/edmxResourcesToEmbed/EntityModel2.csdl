@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="EFModelFirst1Model" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="EFModelFirst1Entities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="cardSet" EntityType="EFModelFirst1Model.cardSet" />
+    <EntitySet Name="userSet" EntityType="EFModelFirst1Model.userSet" />
+    <AssociationSet Name="FK_usercard" Association="EFModelFirst1Model.FK_usercard">
+      <End Role="userSet" EntitySet="userSet" />
+      <End Role="cardSet" EntitySet="cardSet" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="cardSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Cash" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="CreateUserId" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="userId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="userSet" Relationship="EFModelFirst1Model.FK_usercard" FromRole="cardSet" ToRole="userSet" />
+  </EntityType>
+  <EntityType Name="userSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="CreateDate" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="cardSet" Relationship="EFModelFirst1Model.FK_usercard" FromRole="userSet" ToRole="cardSet" />
+  </EntityType>
+  <Association Name="FK_usercard">
+    <End Role="userSet" Type="EFModelFirst1Model.userSet" Multiplicity="1" />
+    <End Role="cardSet" Type="EFModelFirst1Model.cardSet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="userSet">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="cardSet">
+        <PropertyRef Name="userId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

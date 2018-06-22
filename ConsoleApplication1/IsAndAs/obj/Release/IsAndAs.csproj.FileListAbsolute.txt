@@ -1,0 +1,6 @@
+E:\经典算法自己总结学习\ConsoleApplication1\IsAndAs\bin\Release\IsAndAs.exe.config
+E:\经典算法自己总结学习\ConsoleApplication1\IsAndAs\bin\Release\IsAndAs.exe
+E:\经典算法自己总结学习\ConsoleApplication1\IsAndAs\bin\Release\IsAndAs.pdb
+E:\经典算法自己总结学习\ConsoleApplication1\IsAndAs\obj\Release\IsAndAs.csprojResolveAssemblyReference.cache
+E:\经典算法自己总结学习\ConsoleApplication1\IsAndAs\obj\Release\IsAndAs.exe
+E:\经典算法自己总结学习\ConsoleApplication1\IsAndAs\obj\Release\IsAndAs.pdb

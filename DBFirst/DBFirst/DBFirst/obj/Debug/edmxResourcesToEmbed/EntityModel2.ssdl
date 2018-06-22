@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="EFModelFirst1Model.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="EFModelFirst1ModelStoreContainer">
+    <EntitySet Name="cardSet" EntityType="EFModelFirst1Model.Store.cardSet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="userSet" EntityType="EFModelFirst1Model.Store.userSet" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_usercard" Association="EFModelFirst1Model.Store.FK_usercard">
+      <End Role="userSet" EntitySet="userSet" />
+      <End Role="cardSet" EntitySet="cardSet" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="cardSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Cash" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="CreateUserId" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="userId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="userSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="CreateDate" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_usercard">
+    <End Role="userSet" Type="EFModelFirst1Model.Store.userSet" Multiplicity="1" />
+    <End Role="cardSet" Type="EFModelFirst1Model.Store.cardSet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="userSet">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="cardSet">
+        <PropertyRef Name="userId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>
