@@ -1,4 +1,0 @@
-E:\经典算法自己总结学习\shaolei\shaolei\bin\Release\shaolei.exe.config
-E:\经典算法自己总结学习\shaolei\shaolei\obj\Release\shaolei.csprojResolveAssemblyReference.cache
-E:\经典算法自己总结学习\shaolei\shaolei\obj\Release\shaolei.Properties.Resources.resources
-E:\经典算法自己总结学习\shaolei\shaolei\obj\Release\shaolei.csproj.GenerateResource.Cache

@@ -1,8 +1,0 @@
-E:\经典算法自己总结学习\爬虫\release-v1.0\trunk\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
-E:\经典算法自己总结学习\爬虫\release-v1.0\trunk\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
-E:\经典算法自己总结学习\爬虫\release-v1.0\trunk\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
-E:\经典算法自己总结学习\爬虫\release-v1.0\trunk\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
-E:\经典算法自己总结学习\爬虫\release-v1.0\trunk\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
-E:\经典算法自己总结学习\爬虫\release-v1.0\trunk\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
-E:\经典算法自己总结学习\爬虫\release-v1.0\trunk\ConsoleApplication1\bin\Debug\EasySpider.dll
-E:\经典算法自己总结学习\爬虫\release-v1.0\trunk\ConsoleApplication1\bin\Debug\EasySpider.pdb

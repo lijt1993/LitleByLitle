@@ -1,5 +1,0 @@
-E:\经典算法自己总结学习\爬虫\release-v1.0\trunk\EasySpider\bin\Debug\EasySpider.XML
-E:\经典算法自己总结学习\爬虫\release-v1.0\trunk\EasySpider\bin\Debug\EasySpider.dll
-E:\经典算法自己总结学习\爬虫\release-v1.0\trunk\EasySpider\bin\Debug\EasySpider.pdb
-E:\经典算法自己总结学习\爬虫\release-v1.0\trunk\EasySpider\obj\Debug\EasySpider.dll
-E:\经典算法自己总结学习\爬虫\release-v1.0\trunk\EasySpider\obj\Debug\EasySpider.pdb
