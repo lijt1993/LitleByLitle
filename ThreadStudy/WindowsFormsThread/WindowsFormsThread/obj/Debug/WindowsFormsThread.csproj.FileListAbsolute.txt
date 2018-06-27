@@ -1,0 +1,9 @@
+E:\studylitleByLitle\LitleByLitle\ThreadStudy\WindowsFormsThread\WindowsFormsThread\bin\Debug\WindowsFormsThread.exe.config
+E:\studylitleByLitle\LitleByLitle\ThreadStudy\WindowsFormsThread\WindowsFormsThread\obj\Debug\WindowsFormsThread.csprojResolveAssemblyReference.cache
+E:\studylitleByLitle\LitleByLitle\ThreadStudy\WindowsFormsThread\WindowsFormsThread\obj\Debug\WindowsFormsThread.Form1.resources
+E:\studylitleByLitle\LitleByLitle\ThreadStudy\WindowsFormsThread\WindowsFormsThread\obj\Debug\WindowsFormsThread.Properties.Resources.resources
+E:\studylitleByLitle\LitleByLitle\ThreadStudy\WindowsFormsThread\WindowsFormsThread\obj\Debug\WindowsFormsThread.csproj.GenerateResource.Cache
+E:\studylitleByLitle\LitleByLitle\ThreadStudy\WindowsFormsThread\WindowsFormsThread\bin\Debug\WindowsFormsThread.exe
+E:\studylitleByLitle\LitleByLitle\ThreadStudy\WindowsFormsThread\WindowsFormsThread\bin\Debug\WindowsFormsThread.pdb
+E:\studylitleByLitle\LitleByLitle\ThreadStudy\WindowsFormsThread\WindowsFormsThread\obj\Debug\WindowsFormsThread.exe
+E:\studylitleByLitle\LitleByLitle\ThreadStudy\WindowsFormsThread\WindowsFormsThread\obj\Debug\WindowsFormsThread.pdb

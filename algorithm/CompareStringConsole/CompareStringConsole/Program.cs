@@ -14,17 +14,18 @@ namespace CompareStringConsole
             string LongString = "ABCDEFGHI";
             string shortString = "ABCDEZ";
 
-           // program.CompareString(LongString, shortString);
-    
+            // program.CompareString(LongString, shortString);//方法一
 
-            char[] arraylongs,arrayshorts;
-            arraylongs = LongString.ToCharArray();
-            arrayshorts = shortString.ToCharArray();
-            program.quick_sort(arraylongs, 0, LongString.Length-1);//排序
-            program.quick_sort(arrayshorts, 0, shortString.Length - 1);//排序
 
-            program.compare(arraylongs, arrayshorts);
-         
+            //#region 方法二
+            //char[] arraylongs,arrayshorts;
+            //arraylongs = LongString.ToCharArray();
+            //arrayshorts = shortString.ToCharArray();
+            //program.quick_sort(arraylongs, 0, LongString.Length-1);//排序
+            //program.quick_sort(arrayshorts, 0, shortString.Length - 1);//排序
+
+            //program.compare(arraylongs, arrayshorts);
+            //#endregion
             Console.ReadLine();
         }
         #region 一、O(n*m)的轮询方法
