@@ -1,9 +1,10 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using System.Collections;
 namespace CompareStringConsole
 {
     class Program
@@ -14,11 +15,21 @@ namespace CompareStringConsole
             string LongString = "ABCDEFGHI";
             string shortString = "ABCDEZ";
 
+            #region  借用一下
+            string[] number = new string[] { "1" ,"465"};
+            //int a = number[0].Length;
+            number = number.Where(m => m.Length == 1).ToArray();
+            Console.WriteLine(number[0].Length);
+        CollectionBase
+               ArrayList arr=new Arraylist();
+            #endregion
+
+  
             // program.CompareString(LongString, shortString);//方法一
 
 
             //#region 方法二
-            //char[] arraylongs,arrayshorts;
+            char[] arraylongs,arrayshorts;
             //arraylongs = LongString.ToCharArray();
             //arrayshorts = shortString.ToCharArray();
             //program.quick_sort(arraylongs, 0, LongString.Length-1);//排序

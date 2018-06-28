@@ -1,0 +1,6 @@
+E:\studylitleByLitle\LitleByLitle\dataStructure\CollectionStudy\CollectionStudy\bin\Debug\CollectionStudy.exe.config
+E:\studylitleByLitle\LitleByLitle\dataStructure\CollectionStudy\CollectionStudy\bin\Debug\CollectionStudy.exe
+E:\studylitleByLitle\LitleByLitle\dataStructure\CollectionStudy\CollectionStudy\bin\Debug\CollectionStudy.pdb
+E:\studylitleByLitle\LitleByLitle\dataStructure\CollectionStudy\CollectionStudy\obj\Debug\CollectionStudy.csprojResolveAssemblyReference.cache
+E:\studylitleByLitle\LitleByLitle\dataStructure\CollectionStudy\CollectionStudy\obj\Debug\CollectionStudy.exe
+E:\studylitleByLitle\LitleByLitle\dataStructure\CollectionStudy\CollectionStudy\obj\Debug\CollectionStudy.pdb
