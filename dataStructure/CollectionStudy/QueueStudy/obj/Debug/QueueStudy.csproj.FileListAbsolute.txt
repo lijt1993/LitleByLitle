@@ -1,0 +1,6 @@
+E:\studylitleByLitle\LitleByLitle\dataStructure\CollectionStudy\QueueStudy\obj\Debug\QueueStudy.csprojResolveAssemblyReference.cache
+E:\studylitleByLitle\LitleByLitle\dataStructure\CollectionStudy\QueueStudy\bin\Debug\QueueStudy.exe.config
+E:\studylitleByLitle\LitleByLitle\dataStructure\CollectionStudy\QueueStudy\bin\Debug\QueueStudy.exe
+E:\studylitleByLitle\LitleByLitle\dataStructure\CollectionStudy\QueueStudy\bin\Debug\QueueStudy.pdb
+E:\studylitleByLitle\LitleByLitle\dataStructure\CollectionStudy\QueueStudy\obj\Debug\QueueStudy.exe
+E:\studylitleByLitle\LitleByLitle\dataStructure\CollectionStudy\QueueStudy\obj\Debug\QueueStudy.pdb

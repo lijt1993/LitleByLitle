@@ -30,8 +30,8 @@ namespace SortTest
             for (int i = 0; i <= upper; i++)
             {
                 Console.Write(arr[i]+" ");
-            } 
-        
+            }
+            Console.WriteLine();
         }
 
         public void Clear()
@@ -64,8 +64,8 @@ namespace SortTest
 
                 }
 
-                this.DisplayElements(); 
-                Console.WriteLine();
+              //  this.DisplayElements(); 
+       //         Console.WriteLine();
             }
 
 
@@ -93,8 +93,36 @@ namespace SortTest
                 temp = arr[i];
                 arr[i] = arr[min];
                 arr[min] = temp;
-                this.DisplayElements();
-                Console.WriteLine();
+               // this.DisplayElements();
+              //  Console.WriteLine();
+            }
+        
+        
+        }
+
+        #endregion
+
+
+        #region 插入排序
+
+        public void InsertSort()
+        {
+            int temp;//定义一个变量，存放要插入的元素
+            for (int i = 1; i <= upper; i++)//循环要插入的元素
+            {
+                temp = arr[i];
+                int j = i - 1;//与要插入元素做比较的光标
+                while (j >= 0 && arr[j] > temp)
+                {
+                    //做比较的元素大于要插入的元素，做比较的元素后移
+                    arr[j + 1] = arr[j];
+                    j--;
+                }
+                //将要插入的元素插入到适当位置
+                arr[j + 1] = temp;
+
+               // this.DisplayElements();
+               // Console.WriteLine();
             }
         
         
