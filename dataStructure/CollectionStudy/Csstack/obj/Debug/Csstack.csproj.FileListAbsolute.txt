@@ -1,0 +1,6 @@
+E:\studylitleByLitle\LitleByLitle\dataStructure\CollectionStudy\Csstack\bin\Debug\Csstack.exe.config
+E:\studylitleByLitle\LitleByLitle\dataStructure\CollectionStudy\Csstack\bin\Debug\Csstack.exe
+E:\studylitleByLitle\LitleByLitle\dataStructure\CollectionStudy\Csstack\bin\Debug\Csstack.pdb
+E:\studylitleByLitle\LitleByLitle\dataStructure\CollectionStudy\Csstack\obj\Debug\Csstack.csprojResolveAssemblyReference.cache
+E:\studylitleByLitle\LitleByLitle\dataStructure\CollectionStudy\Csstack\obj\Debug\Csstack.exe
+E:\studylitleByLitle\LitleByLitle\dataStructure\CollectionStudy\Csstack\obj\Debug\Csstack.pdb

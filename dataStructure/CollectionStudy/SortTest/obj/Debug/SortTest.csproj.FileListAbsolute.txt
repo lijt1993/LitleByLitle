@@ -1,0 +1,6 @@
+E:\studylitleByLitle\LitleByLitle\dataStructure\CollectionStudy\SortTest\bin\Debug\SortTest.exe.config
+E:\studylitleByLitle\LitleByLitle\dataStructure\CollectionStudy\SortTest\bin\Debug\SortTest.exe
+E:\studylitleByLitle\LitleByLitle\dataStructure\CollectionStudy\SortTest\bin\Debug\SortTest.pdb
+E:\studylitleByLitle\LitleByLitle\dataStructure\CollectionStudy\SortTest\obj\Debug\SortTest.csprojResolveAssemblyReference.cache
+E:\studylitleByLitle\LitleByLitle\dataStructure\CollectionStudy\SortTest\obj\Debug\SortTest.exe
+E:\studylitleByLitle\LitleByLitle\dataStructure\CollectionStudy\SortTest\obj\Debug\SortTest.pdb

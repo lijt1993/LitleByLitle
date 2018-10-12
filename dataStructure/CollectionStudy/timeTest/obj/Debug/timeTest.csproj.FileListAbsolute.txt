@@ -1,0 +1,6 @@
+E:\studylitleByLitle\LitleByLitle\dataStructure\CollectionStudy\timeTest\obj\Debug\timeTest.csprojResolveAssemblyReference.cache
+E:\studylitleByLitle\LitleByLitle\dataStructure\CollectionStudy\timeTest\bin\Debug\timeTest.exe.config
+E:\studylitleByLitle\LitleByLitle\dataStructure\CollectionStudy\timeTest\bin\Debug\timeTest.exe
+E:\studylitleByLitle\LitleByLitle\dataStructure\CollectionStudy\timeTest\bin\Debug\timeTest.pdb
+E:\studylitleByLitle\LitleByLitle\dataStructure\CollectionStudy\timeTest\obj\Debug\timeTest.exe
+E:\studylitleByLitle\LitleByLitle\dataStructure\CollectionStudy\timeTest\obj\Debug\timeTest.pdb

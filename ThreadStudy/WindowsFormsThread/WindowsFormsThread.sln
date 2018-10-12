@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsThread", "WindowsFormsThread\WindowsFormsThread.csproj", "{DE84EFC0-B9D4-4F3A-BBE9-480DD98D4953}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsThreadClass", "WindowsFormsThreadClass\WindowsFormsThreadClass.csproj", "{C6A4B20F-22BC-4373-A5A5-D55FBC0BCACB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE84EFC0-B9D4-4F3A-BBE9-480DD98D4953}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE84EFC0-B9D4-4F3A-BBE9-480DD98D4953}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE84EFC0-B9D4-4F3A-BBE9-480DD98D4953}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE84EFC0-B9D4-4F3A-BBE9-480DD98D4953}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6A4B20F-22BC-4373-A5A5-D55FBC0BCACB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6A4B20F-22BC-4373-A5A5-D55FBC0BCACB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6A4B20F-22BC-4373-A5A5-D55FBC0BCACB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6A4B20F-22BC-4373-A5A5-D55FBC0BCACB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
