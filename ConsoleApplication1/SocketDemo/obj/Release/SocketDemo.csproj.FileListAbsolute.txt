@@ -1,0 +1,10 @@
+E:\经典算法自己总结学习\ConsoleApplication1\SocketDemo\bin\Release\SocketDemo.exe.config
+E:\经典算法自己总结学习\ConsoleApplication1\SocketDemo\bin\Release\SocketDemo.exe
+E:\经典算法自己总结学习\ConsoleApplication1\SocketDemo\bin\Release\SocketDemo.pdb
+E:\经典算法自己总结学习\ConsoleApplication1\SocketDemo\obj\Release\SocketDemo.csprojResolveAssemblyReference.cache
+E:\经典算法自己总结学习\ConsoleApplication1\SocketDemo\obj\Release\SocketDemo.FrmServer.resources
+E:\经典算法自己总结学习\ConsoleApplication1\SocketDemo\obj\Release\SocketDemo.Properties.Resources.resources
+E:\经典算法自己总结学习\ConsoleApplication1\SocketDemo\obj\Release\SocketDemo.csproj.GenerateResource.Cache
+E:\经典算法自己总结学习\ConsoleApplication1\SocketDemo\obj\Release\SocketDemo.exe
+E:\经典算法自己总结学习\ConsoleApplication1\SocketDemo\obj\Release\SocketDemo.pdb
+E:\经典算法自己总结学习\ConsoleApplication1\SocketDemo\obj\Release\SocketDemo.Form2.resources
